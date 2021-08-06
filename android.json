@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
+      "packagePatterns": ["*"],
       "reviewers": [
         "Hungon"
       ]
