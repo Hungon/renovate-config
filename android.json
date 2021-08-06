@@ -1,10 +1,5 @@
 {
-  "packageRules": [
-    {
-      "packagePatterns": ["*"],
-      "reviewers": [
-        "Hungon"
-      ]
-    }
+  "reviewers": [
+    "Hungon"
   ]
 }
