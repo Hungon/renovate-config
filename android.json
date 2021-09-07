@@ -2,9 +2,10 @@
   "packageRules": [
     {
       "matchPackageNames": ["com.android.tools.build:gradle"],
-      "rangeStrategy": "pin"
-      "matchUpdateTypes": ["patch"],
-      "automerge": true
+      "rangeStrategy": "pin",
+      "patch": {
+          "automerge": true
+      }
     }
   ]
 }
