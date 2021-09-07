@@ -1,5 +1,10 @@
 {
-  "reviewers": [
-    ""
+  "packageRules": [
+    {
+      "matchPackageNames": ["com.android.tools.build:gradle"],
+      "rangeStrategy": "pin"
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    }
   ]
 }
